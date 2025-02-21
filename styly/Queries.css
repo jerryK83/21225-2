@@ -1,0 +1,95 @@
+@media only screen and (max-width: 710px) {
+    
+    nav ul {
+        display: none;
+    }
+    
+    nav ul li {
+        display: block;
+    }
+    
+    .mobile-icon {
+        display: inline-block;
+    }
+    
+    .nav-back {
+/*        display: none;*/
+    }
+    
+    .mobile-nav {
+        position: fixed;
+        z-index: 80;
+        width: 100%;
+        height: 320px;
+        background: rgba(0, 0, 0, 0.78);
+        border-bottom: 2px solid rgba(255, 255, 255, 0.61);
+        display: none;
+}
+}
+
+
+
+@media only screen and (max-width: 550px) {
+    
+    
+    .gall {
+        padding-top: 13%;
+        padding-left: 10%;
+        padding-right: 10%;
+}
+    
+    .segment .col {
+        margin-left: 0;
+    }
+    
+    .art {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    
+    
+    .segment li {
+        height: 174px;
+    }
+    
+    .segment img {
+        height: 174px;
+        
+}
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

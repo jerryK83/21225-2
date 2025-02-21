@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+    height: 100vh;
+}
+
+nav ul {
+    position: fixed;
+    z-index: 100;
+    left: 2%;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 900;
+    text-shadow: -1px 2px 0px #000;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 63px;
+/*    border: 1px solid red;*/
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    color: #F7A204;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+
+nav ul li a:hover,
+nav ul li a:active {
+    transition: border-bottom 1s;
+    border-bottom: 2px solid #F7A204;
+}
+
+.nav-back {
+    position: fixed;
+    z-index: 80;
+    width: 100%;
+    height: 70px;
+    background: rgba(0, 0, 0, 0.78)
+}
+
+
+
+/*-------MOBILE----*/
+
+.mobile-icon {
+    position: fixed;
+    z-index: 200;
+    right: 2%;
+    margin-top: 1%;
+    display: none;
+}
+
+
+
+.gallery {
+    background: #ff00cc;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.heading h2 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+    font-family: Birch Std;
+    color: aliceblue;
+    letter-spacing: 10px;
+    text-shadow: 2px 0px 0px black;
+}
+
+.heading h2:after {
+    content: "";
+    display: block;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid #fff;
+}
+
+.segment li {
+    background-color: #000;
+    height: 189px;
+    border: 1px solid #fff;
+    overflow: hidden;
+}
+
+.segment img {
+    width: 100%;
+    height: 189px;
+    opacity: 0.8;
+}
+
+.segment img:hover {
+    transition: transform 2s;
+    transform: scale(1.2);
+    
+}
+
+
+.gall {
+    padding-top: 5%;
+}
+
+.agent p {
+    padding-top: 25px;
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+/*
+.clearfix:after {
+content: "";
+display: table;
+clear: both;
+}
+*/
+
+
+/*-------------------reusable-------------------*/
+
+
+
+
+.row {
+    max-width: 900px;
+    margin: 0px auto;
+}
+
+
+
+/*
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+*/
